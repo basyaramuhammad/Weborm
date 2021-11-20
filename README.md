@@ -39,4 +39,4 @@ Thanks to https://github.com/stisla/stisla
 *  Email: user@example.com
 *  Password: 1234
 
--------------------------------------------- Thanks to https://github.com/stisla/stisla -------------------------------------------
+------------------------------------------ Thanks to https://github.com/stisla/stisla -----------------------------------------
