@@ -33,6 +33,10 @@ php artisan migrate:refresh --seed
 *  Email: editor@example.com
 *  Password: 1234
 
+Thanks to https://github.com/stisla/stisla
+
 #### Demo User Login
 *  Email: user@example.com
 *  Password: 1234
+
+-------------------------------------------------------------------------Thanks to https://github.com/stisla/stisla--------------------------------------------------------------
