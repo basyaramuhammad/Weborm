@@ -10,10 +10,15 @@ Route::get('home', function() {
 Route::get('kesekretariatan', function() {
     return redirect(route('admin.kesekretariatan'));
 });
+Route::get('/kesekretariatan/upload', 'UploadController@upload');
+Route::post('/kesekretariatan/upload/proses', 'UploadController@proses_upload');
 
 Route::get('acara', function() {
     return redirect(route('admin.acara'));
 });
+
+Route::get('/acara/upload', 'UploadController@upload');
+Route::post('/acara/upload/proses', 'UploadController@proses_upload');
 
 Route::get('konsultasi', function() {
     return redirect(route('admin.konsultasi'));

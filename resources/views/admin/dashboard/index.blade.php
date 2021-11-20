@@ -13,154 +13,89 @@
         <div class="section-body">
             <div class="content-wrapper" style="min-height: 1200.88px;">
 
-                <!-- Main content -->
-                <section class="content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class="card-title">Striped Full Width Table</h3>
-                                    </div>
-                                    <!-- /.card-header -->
-                                    <div class="card-body p-0">
-                                        <table class="table table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th style="width: 10px">#</th>
-                                                    <th>Task</th>
-                                                    <th>Progress</th>
-                                                    <th style="width: 40px">Label</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1.</td>
-                                                    <td>Update software</td>
-                                                    <td>
-                                                        <div class="progress progress-xs">
-                                                            <div class="progress-bar progress-bar-danger"
-                                                                style="width: 55%"></div>
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="badge bg-danger">55%</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2.</td>
-                                                    <td>Clean database</td>
-                                                    <td>
-                                                        <div class="progress progress-xs">
-                                                            <div class="progress-bar bg-warning" style="width: 70%"></div>
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="badge bg-warning">70%</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3.</td>
-                                                    <td>Cron job running</td>
-                                                    <td>
-                                                        <div class="progress progress-xs progress-striped active">
-                                                            <div class="progress-bar bg-primary" style="width: 30%"></div>
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="badge bg-primary">30%</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4.</td>
-                                                    <td>Fix and squish bugs</td>
-                                                    <td>
-                                                        <div class="progress progress-xs progress-striped active">
-                                                            <div class="progress-bar bg-success" style="width: 90%"></div>
-                                                        </div>
-                                                    </td>
-                                                    <td><span class="badge bg-success">90%</span></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!-- /.card-body -->
-                                </div>
-                                <!-- /.card -->
-                            </div>
-                            <!-- /.col -->
-                            <div class="col-md-6">
-                                <div class="card">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h3 class="card-title">Condensed Full Width Table</h3>
-                                        </div>
-                                        <!-- /.card-header -->
-                                        <div class="card-body p-0">
-                                            <table class="table table-condensed">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width: 10px">#</th>
-                                                        <th>Task</th>
-                                                        <th>Progress</th>
-                                                        <th style="width: 40px">Label</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>1.</td>
-                                                        <td>Update software</td>
-                                                        <td>
-                                                            <div class="progress progress-xs">
-                                                                <div class="progress-bar progress-bar-danger"
-                                                                    style="width: 55%"></div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="badge bg-danger">55%</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2.</td>
-                                                        <td>Clean database</td>
-                                                        <td>
-                                                            <div class="progress progress-xs">
-                                                                <div class="progress-bar bg-warning" style="width: 70%">
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="badge bg-warning">70%</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3.</td>
-                                                        <td>Cron job running</td>
-                                                        <td>
-                                                            <div class="progress progress-xs progress-striped active">
-                                                                <div class="progress-bar bg-primary" style="width: 30%">
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="badge bg-primary">30%</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4.</td>
-                                                        <td>Fix and squish bugs</td>
-                                                        <td>
-                                                            <div class="progress progress-xs progress-striped active">
-                                                                <div class="progress-bar bg-success" style="width: 90%">
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                        <td><span class="badge bg-success">90%</span></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <!-- /.card-body -->
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <!-- /.col -->
+                <div class="col-12 col-md-6 col-lg-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Daftar Dokumen</h4>
                         </div>
-                        <!-- /.row -->
-                    </div><!-- /.container-fluid -->
-                </section>
-                <!-- /.content -->
-            </div>
-        </div>
+                        <div class="card-body p-0">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-md">
+                                    <tr>
+                                        <th>Nomor</th>
+                                        <th>Nama Kegiatan</th>
+                                        <th>Tanggal Pengajuan</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Pembekalan PKL</td>
+                                        <td>2021-20-11</td>
+                                        <td>
+                                            <div class="badge badge-success">Active</div>
+                                        </td>
+                                        <td><a href="#" class="btn btn-danger">Hapus</a></td>
+                                    </tr>
+                                    {{-- <tr>
+                                        <td>2</td>
+                                        <td>Hasan Basri</td>
+                                        <td>2017-01-09</td>
+                                        <td>
+                                            <div class="badge badge-success">Active</div>
+                                        </td>
+                                        <td><a href="#" class="btn btn-danger">Hapus</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Kusnadi</td>
+                                        <td>2017-01-11</td>
+                                        <td>
+                                            <div class="badge badge-warning">Not Active</div>
+                                        </td>
+                                        <td><a href="#" class="btn btn-danger">Hapus</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Rizal Fakhri</td>
+                                        <td>2017-01-11</td>
+                                        <td>
+                                            <div class="badge badge-success">Active</div>
+                                        </td>
+                                        <td><a href="#" class="btn btn-danger">Hapus</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Isnap Kiswandi</td>
+                                        <td>2017-01-17</td>
+                                        <td>
+                                            <div class="badge badge-success">Active</div>
+                                        </td>
+                                        <td><a href="#" class="btn btn-danger">Hapus</a></td>
+                                    </tr> --}}
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card-footer text-right">
+                            <nav class="d-inline-block">
+                                <ul class="pagination mb-0">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1"><i
+                                                class="fas fa-chevron-left"></i></a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1 <span
+                                                class="sr-only">(current)</span></a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
     </section>
 @endsection
