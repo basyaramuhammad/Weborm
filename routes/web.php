@@ -24,8 +24,6 @@ Route::get('konsultasi', function() {
     return redirect(route('admin.konsultasi'));
 });
     
-
-
 Route::name('admin.')->prefix('admin')->middleware('auth')->group(function() {
     Route::get('dashboard', 'DashboardController')->name('dashboard');
     Route::get('kesekretariatan', 'KesekretariantanController')->name('kesekretariatan');
