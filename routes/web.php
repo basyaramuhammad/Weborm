@@ -23,13 +23,14 @@ Route::post('/acara/upload/proses', 'UploadController@proses_upload');
 Route::get('konsultasi', function() {
     return redirect(route('admin.konsultasi'));
 });
+    
+
 
 Route::name('admin.')->prefix('admin')->middleware('auth')->group(function() {
     Route::get('dashboard', 'DashboardController')->name('dashboard');
     Route::get('kesekretariatan', 'KesekretariantanController')->name('kesekretariatan');
     Route::get('acara', 'AcaraController')->name('acara');
     Route::get('konsultasi', 'KonsultasiController')->name('konsultasi');
-
 
     Route::get('users/roles', 'UserController@roles')->name('users.roles');
     Route::resource('users', 'UserController', [
