@@ -52,10 +52,6 @@ class UploadController extends Controller
       	        // tipe mime
 		echo 'File Mime Type: '.$file->getMimeType();
 
-      	        // isi dengan nama folder tempat kemana file diupload
-		$tujuan_upload = 'data_file';
-        $file->move($tujuan_upload,$nama_file);
-
                 // upload file
 		$file->move($tujuan_upload,$file->getClientOriginalName());
 	}
