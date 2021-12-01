@@ -32,27 +32,5 @@ class UploadController extends Controller
 		]);
 
 		return redirect()->back();
-
-      	        // nama file
-		echo 'File Name: '.$file->getClientOriginalName();
-		echo '<br>';
-
-      	        // ekstensi file
-		echo 'File Extension: '.$file->getClientOriginalExtension();
-		echo '<br>';
-
-      	        // real path
-		echo 'File Real Path: '.$file->getRealPath();
-		echo '<br>';
-
-      	        // ukuran file
-		echo 'File Size: '.$file->getSize();
-		echo '<br>';
-
-      	        // tipe mime
-		echo 'File Mime Type: '.$file->getMimeType();
-
-                // upload file
-		$file->move($tujuan_upload,$file->getClientOriginalName());
 	}
 }
